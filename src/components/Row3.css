@@ -1,0 +1,169 @@
+.constant{
+    display:flex;
+    flex-wrap:wrap;
+align-items: center;
+justify-content: center;
+padding-bottom: 2.5rem;
+padding-top:11rem;
+
+}
+.first{
+    height:28rem;
+    width:18rem;
+    padding-bottom: 2rem;
+padding-top:1rem;
+}
+.first:hover {
+    background-color: hwb(37 93% 4%);
+}
+
+
+
+.second{
+    height: 30rem;
+        width: 16rem;
+padding-bottom: 2rem;
+    /* padding-top:2rem; */
+}
+.second:hover {
+    background-color: hwb(37 93% 4%);
+}
+
+
+
+.third:hover {
+    background-color: hwb(37 93% 4%);
+}
+.third{
+    height: 28rem;
+    width: 34rem;
+padding-bottom: 2rem;
+}
+
+
+.fourth{
+height: 28rem;
+    width: 15rem;
+padding-bottom: 2rem;
+}
+.fourth:hover {
+    background-color: hwb(37 93% 4%);
+}
+
+
+
+
+.first img{
+    height: 16rem;
+        width: 16rem;
+        padding:1.1rem;
+}
+
+.second img{
+    height: 23rem;
+        width: 15rem;
+        padding: 1.1rem;
+}
+
+.third img{
+    height: 23rem;
+        width: 37rem;
+        padding: 1.1rem;
+}
+
+.fourth img{
+    height: 24rem;
+        width: 15rem;
+        padding: 1.1rem;
+}
+
+
+
+@media screen and (max-width: 1279px)
+{
+.constant {
+    justify-content: center;
+    align-items: center;
+}
+    /* .fourth img{
+        padding-top:5rem;
+    } */
+}
+
+
+
+@media screen and (max-width: 1039px) {
+
+    .constant {
+       
+            justify-content: center;
+            align-items: center;
+        }
+    .third img {
+        padding-top: 2rem;
+    }
+}
+@media screen and (max-width: 690px) {
+
+   .first img{
+padding-top:7rem;
+   }
+}
+@media screen and (max-width: 430px) {
+
+   .nowitisvisible{
+padding-right:4rem;
+   }
+}
+
+
+
+.bottom-left {
+    position: relative;
+    bottom: -25rem;
+    left: 1rem;
+}
+.bottom-left2 {
+    position: relative;
+    bottom: -26rem;
+    left: .1rem;
+}
+.bottom-left4 {
+    position: relative;
+    bottom: -26rem;
+    left: .1rem;
+}
+
+/* Top left text */
+.top-left {
+    position: relative;
+    top: -.5rem;
+    left: 1rem;
+}
+.top-left2 {
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+}
+
+
+/* Top right text */
+.top-right {
+    position: relative;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: relative;
+    bottom: -23rem;
+    right: -8rem;
+}
+
+
+
+.boldit{
+padding-left:2.5rem;
+font-weight: bold;
+}

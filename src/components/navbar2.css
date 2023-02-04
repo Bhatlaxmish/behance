@@ -1,0 +1,89 @@
+/* navbar1 */
+
+.left-linkst {
+    margin-top: 6rem;
+    
+    background-color: rgb(244, 249, 248);
+    border-radius: 2rem;
+    position:fixed;
+    display:flex;
+}
+
+.left-linkst a:hover {
+    background-color: rgb(208, 242, 249);
+    border-radius: 2rem;
+}
+.rights{
+float:left;
+}
+
+
+
+.left-links {
+    flex: 1 1 200px;
+}
+
+.links {
+    display: inline-block;
+    text-align: center;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/* navbar2 */
+
+.search {
+    width: 48rem;
+    height: 2.7rem;
+}
+
+.linkse {
+    display: inline-block;
+    text-align: center;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.links:hover {
+    border-bottom: 2px solid purple;
+}
+
+/* card  */
+
+
+.addbackgroundwhite {
+    color: rgb(119, 119, 236);
+    background-color: rgb(214, 232, 232);
+    border-radius: 2rem;
+}
+.nowitisvisible{
+    background-color: rgb(221, 247, 249);
+    height:20rem;
+    width:13rem;
+    float:right;
+    visibility:hidden;
+    display:none;
+    
+}
+.search2{
+    height:1.5rem;
+    width:12rem;
+}
+
+@media screen and (max-width:1080px){
+
+.left-linkst {
+        display:none;
+    }
+    .nowitisvisible{
+visibility:visible;
+display: block;
+    }
+
+}

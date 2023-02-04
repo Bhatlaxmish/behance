@@ -1,0 +1,300 @@
+.links:hover {
+    border-bottom: 2px solid purple;
+}
+
+/* card  */
+
+.givepaddingtop {
+    padding-top: 1rem;
+    
+}
+.row{
+    flex-wrap: wrap;
+    display: flex;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.column1 {
+    float: left;
+    width: 18%;
+    padding: 1rem 1rem;
+
+
+  
+}
+
+.column2 {
+    float: left;
+    width: 30%;
+padding: 1rem;
+ 
+ 
+}
+
+.column3 {
+    float: left;
+    width: 25%;
+padding: 1rem 1rem;
+ 
+   
+}
+
+.column4 {
+    float: left;
+    width: 25%;
+padding: 1rem 1rem;
+  
+}
+
+
+
+
+
+.card1 {
+   
+
+    padding-left: .01rem;
+    text-align: center;
+ 
+
+}
+
+.card1 img {
+    width: 15%;
+    height: 16%;
+}
+
+.card2 img {
+    width: 13%;
+    height: 22%;
+}
+
+.card3 img { 
+ 
+    width: 30%;
+    height: 20%;
+}
+
+.card4 img {
+    width: 15rem;
+    height: 16rem;
+}
+
+.card2 {
+    
+    text-align: center;
+  
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.card3 {
+
+    text-align: center;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.card4 {
+   
+
+    padding-left: 7rem;
+    
+    text-align: center;
+   
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* @media (min-width:500px) {
+
+    .card2 img {
+        width: var(0, 10rem);
+        height: 19rem;
+    }
+
+    .card3 img {
+
+        width: var(0, 20rem);
+        height: 15rem;
+    }
+
+    .card4 img {
+        width: 10rem;
+        height: 12rem;
+    }
+
+    .column1 {
+        float: left;
+        width: 12%;
+        padding: 1rem 1rem;
+    }
+        .column2 {
+            float: left;
+            width: 25%;
+            padding: 1rem;
+    
+            
+            }
+        
+            .column3 {
+                float: left;
+                width: 20%;
+                padding: 1rem 1rem;
+        
+                
+            }
+        
+            .column4 {
+                float: left;
+                width: 20%;
+                padding: 1rem 1rem;
+}
+} */
+
+
+        /* background-color: rgb(98, 0, 255); * /
+        }
+    
+        .column2 {
+            float: left;
+            width: 25%;
+            padding: 1rem;
+    
+            /* background-color: rgb(157, 255, 0); * /
+        }
+    
+        .column3 {
+            float: left;
+            width: 20%;
+            padding: 1rem 1rem;
+    
+            /* background-color: rgb(240, 156, 156); * /
+        }
+    
+        .column4 {
+            float: left;
+            width: 20%;
+            padding: 1rem 1rem;
+    
+            /* background-color: red; * /
+        }
+    
+}
+/* @media screen and (min-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+
+.bottom-left {
+    position: absolute;
+    /* background-color: red; * /
+    bottom: 1rem;
+    left: 16rem;
+}
+
+/* Top left text * /
+.top-left {
+
+/* background-color: green; * /
+
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+}
+
+/* Top right text * /
+.top-right {
+    /* background-color: blue; * /
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text * /
+.bottom-right {
+    position: absolute;
+    /* background-color: yellow; * /
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text * / 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.addbackgroundred {
+    color: white;
+    background: #5656f4;
+    border-radius: 2rem;
+}
+
+.addbackgroundwhite {
+    color: rgb(119, 119, 236);
+    background-color: rgb(214, 232, 232);
+    border-radius: 2rem;
+}
+.boldit {
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.container,
+.container-lg {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px) {
+
+   
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        margin: 0;
+    }
+
+   
+}
+
+@media screen and (min-width: 960px) {
+    
+} */
+
+
+
